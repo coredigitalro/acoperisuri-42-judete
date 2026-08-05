@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arad.acoperisuri-national.ro/sitemap.xml

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iasi.acoperisuri-national.ro/sitemap.xml

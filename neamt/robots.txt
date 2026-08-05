@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://neamt.acoperisuri-national.ro/sitemap.xml
