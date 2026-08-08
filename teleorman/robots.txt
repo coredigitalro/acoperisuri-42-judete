@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://teleorman.acoperisuri-national.ro/sitemap.xml

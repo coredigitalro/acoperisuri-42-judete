@@ -1,53 +1,37 @@
-# Acoperișuri — 41 site-uri pe județe (subdomenii)
+# BilkaRoofArt — site
 
 ## Structură
-Fiecare folder (`alba/`, `arad/`, `cluj/`, etc.) e un site complet, independent:
-`index.html`, `style.css`, `script.js`, `favicon.svg`, `robots.txt`, `sitemap.xml`, `assets/` (6 poze galerie).
+14 pagini HTML, fără dependențe externe (doar Google Fonts).
 
-## ⚠️ IMPORTANT — înainte de deploy
-Fișierul `vercel.json` conține 41 de reguli de rewrite, toate scrise cu domeniul placeholder
-**`DOMENIUL-TAU-REAL.ro`**. Înlocuiește-l cu domeniul real cumpărat, în TOATE apariițiile,
-înainte de primul deploy:
+    index.html          — pagina principală
+    servicii.html       — index servicii
+    preturi.html        — listă prețuri (montaj complet / manoperă)
+    lucrari.html        — portofoliu + filmări
+    despre.html         — despre firmă, principii, parteneri
+    contact.html        — formular + date de contact
+    servicii/           — 8 subpagini, câte una per serviciu
+    assets/css/main.css
+    assets/js/main.js
+    assets/img/         — 16 imagini + favicon
+    assets/video/       — 2 filmări + postere
 
-```
-sed -i 's/DOMENIUL-TAU-REAL\.ro/domeniul-tau-real.ro/g' vercel.json sitemap-index.xml
-```
+## Design
+- Tipografie: Instrument Serif (titluri) + Inter Tight (text) + JetBrains Mono (cifre, etichete)
+- Paletă: grafit profund cu accent cupru (#B87333) — culoarea tablei de acoperiș
+- Meniu cu mega-dropdown pentru servicii; drawer separat pe mobil
+- Animații: reveal la scroll, parallax pe hero, contoare animate, tranziții pe hover
 
-Pe Windows (PowerShell):
-```
-(Get-Content vercel.json) -replace 'DOMENIUL-TAU-REAL\.ro','domeniul-tau-real.ro' | Set-Content vercel.json
-```
+## Formularul de contact
+Momentan validează și confirmă vizual, dar NU trimite email.
+Pentru trimitere reală: Formspree, Web3Forms sau un webhook — se modifică
+blocul `contact form` din `assets/js/main.js`.
 
-## Ce s-a schimbat față de versiunea anterioară
-- **Telefon unic peste tot:** 0721 001 888 (identic în toate cele 41 de site-uri)
-- **Ani experiență unic peste tot:** 20 ani (identic în toate cele 41)
-- **Text descriptiv (lede) rămâne diferit per județ** — intenționat, pentru SEO: conținut identic
-  pe subdomenii diferite ("duplicate content") e penalizat de Google, deci variația de text ajută
-  indexarea fiecărui subdomeniu ca pagină distinctă.
-- **Galerie extinsă la 6 poze** (adăugate: fereastră mansardă, montaj jgheaburi).
+## Prețuri
+Valorile din `preturi.html` și din subpaginile de servicii sunt orientative,
+la nivelul pieței. **Trebuie confirmate sau înlocuite cu prețurile reale**
+înainte de publicare.
 
-## Pași de deploy (Vercel + GitHub)
-
-1. Urci acest folder complet într-un repo GitHub nou (păstrează structura exact așa cum e).
-2. Vercel → **Add New Project → Import Git Repository** → alegi repo-ul.
-   Framework Preset: **Other** (fără build command — site-urile sunt HTML/CSS/JS static pur).
-3. După primul deploy: **Project → Settings → Domains**.
-4. Adaugi fiecare subdomeniu din cele 41 (`alba.domeniul-tau-real.ro`, ... — numele = folderele din proiect).
-5. **CNAME-urile rămân manuale**, la providerul de domeniu, per subdomeniu:
-   ```
-   Tip:   CNAME
-   Nume:  <slug-județ>
-   Value: cname.vercel-dns.com
-   ```
-   Sau un singur wildcard pentru toate 41:
-   ```
-   Tip:   CNAME
-   Nume:  *
-   Value: cname.vercel-dns.com
-   ```
-   (wildcard-ul trebuie adăugat și ca `*.domeniul-tau-real.ro` în Vercel → Domains)
-6. După propagarea DNS, fiecare subdomeniu e live automat, cu SSL emis automat.
-
-## SEO
-Fiecare site are `robots.txt` + `sitemap.xml` proprii. `sitemap-index.xml` din rădăcină e un
-punct de plecare pentru un sitemap central, dacă vrei unul (trebuie actualizat cu domeniul real).
+## Deploy (Vercel / GitHub Pages)
+Site static, fără build step.
+- Vercel: Add New Project → Import repo → Framework Preset: **Other**
+- GitHub Pages: Settings → Pages → Deploy from branch

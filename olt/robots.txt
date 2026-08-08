@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://olt.acoperisuri-national.ro/sitemap.xml

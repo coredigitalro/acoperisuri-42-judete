@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ilfov.acoperisuri-national.ro/sitemap.xml

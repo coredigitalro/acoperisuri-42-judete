@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://bistrita-nasaud.acoperisuri-national.ro/sitemap.xml

@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://brasov.acoperisuri-national.ro/sitemap.xml

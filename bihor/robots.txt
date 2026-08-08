@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://bihor.acoperisuri-national.ro/sitemap.xml

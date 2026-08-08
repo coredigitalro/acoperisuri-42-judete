@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://galati.acoperisuri-national.ro/sitemap.xml

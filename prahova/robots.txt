@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://prahova.acoperisuri-national.ro/sitemap.xml

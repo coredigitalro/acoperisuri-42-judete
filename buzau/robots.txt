@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://buzau.acoperisuri-national.ro/sitemap.xml

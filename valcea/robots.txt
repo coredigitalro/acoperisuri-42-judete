@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://valcea.acoperisuri-national.ro/sitemap.xml

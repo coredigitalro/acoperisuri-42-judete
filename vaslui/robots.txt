@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://vaslui.acoperisuri-national.ro/sitemap.xml

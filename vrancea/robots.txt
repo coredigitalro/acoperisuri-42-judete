@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://vrancea.acoperisuri-national.ro/sitemap.xml
