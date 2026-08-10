@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arges.DOMENIUL-TAU.ro/sitemap.xml

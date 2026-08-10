@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cluj.DOMENIUL-TAU.ro/sitemap.xml

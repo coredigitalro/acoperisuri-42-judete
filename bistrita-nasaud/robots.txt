@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bistrita-nasaud.DOMENIUL-TAU.ro/sitemap.xml

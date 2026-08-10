@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prahova.DOMENIUL-TAU.ro/sitemap.xml

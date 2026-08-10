@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://galati.DOMENIUL-TAU.ro/sitemap.xml

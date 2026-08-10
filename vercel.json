@@ -1,0 +1,428 @@
+{
+  "rewrites": [
+    {
+      "source": "/assets/video/(.*)",
+      "destination": "/assets/video/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "alba.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/alba/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "arad.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/arad/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "arges.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/arges/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "bacau.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/bacau/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "bihor.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/bihor/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "bistrita-nasaud.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/bistrita-nasaud/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "botosani.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/botosani/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "braila.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/braila/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "brasov.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/brasov/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "buzau.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/buzau/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "caras-severin.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/caras-severin/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "calarasi.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/calarasi/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "cluj.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/cluj/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "constanta.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/constanta/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "covasna.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/covasna/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "dambovita.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/dambovita/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "dolj.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/dolj/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "galati.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/galati/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "giurgiu.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/giurgiu/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "gorj.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/gorj/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "harghita.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/harghita/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "hunedoara.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/hunedoara/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ialomita.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/ialomita/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "iasi.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/iasi/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ilfov.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/ilfov/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "maramures.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/maramures/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "mehedinti.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/mehedinti/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "mures.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/mures/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "neamt.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/neamt/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "olt.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/olt/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "prahova.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/prahova/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "satu-mare.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/satu-mare/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "salaj.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/salaj/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "sibiu.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/sibiu/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "suceava.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/suceava/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "teleorman.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/teleorman/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "timis.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/timis/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "tulcea.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/tulcea/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "vaslui.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/vaslui/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "valcea.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/valcea/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "vrancea.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/vrancea/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "bucuresti.DOMENIUL-TAU.ro"
+        }
+      ],
+      "destination": "/bucuresti/$1"
+    }
+  ]
+}

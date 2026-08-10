@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://salaj.DOMENIUL-TAU.ro/sitemap.xml
